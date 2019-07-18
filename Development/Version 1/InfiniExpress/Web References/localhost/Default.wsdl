@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://www.accountscentre.com/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://www.accountscentre.com/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.accountscentre.com/">
+      <s:import namespace="http://www.w3.org/2001/XMLSchema" />
+      <s:element name="CustomerIdValidation">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CustomerId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CustomerIdValidationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CustomerIdValidationResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SynchronizeFromWeb">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DTds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SynchronizeFromWebResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SynchronizeFromWebResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SynchronizeFromDeskTop">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SynchronizeFromDeskTopResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SynchronizeFromDeskTopResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateSynchronizeFlag">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSds">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateSynchronizeFlagResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="UpdateSynchronizeFlagResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="CustomerIdValidationSoapIn">
+    <part name="parameters" element="s0:CustomerIdValidation" />
+  </message>
+  <message name="CustomerIdValidationSoapOut">
+    <part name="parameters" element="s0:CustomerIdValidationResponse" />
+  </message>
+  <message name="SynchronizeFromWebSoapIn">
+    <part name="parameters" element="s0:SynchronizeFromWeb" />
+  </message>
+  <message name="SynchronizeFromWebSoapOut">
+    <part name="parameters" element="s0:SynchronizeFromWebResponse" />
+  </message>
+  <message name="SynchronizeFromDeskTopSoapIn">
+    <part name="parameters" element="s0:SynchronizeFromDeskTop" />
+  </message>
+  <message name="SynchronizeFromDeskTopSoapOut">
+    <part name="parameters" element="s0:SynchronizeFromDeskTopResponse" />
+  </message>
+  <message name="UpdateSynchronizeFlagSoapIn">
+    <part name="parameters" element="s0:UpdateSynchronizeFlag" />
+  </message>
+  <message name="UpdateSynchronizeFlagSoapOut">
+    <part name="parameters" element="s0:UpdateSynchronizeFlagResponse" />
+  </message>
+  <portType name="InfiniServiceSoap">
+    <operation name="CustomerIdValidation">
+      <input message="s0:CustomerIdValidationSoapIn" />
+      <output message="s0:CustomerIdValidationSoapOut" />
+    </operation>
+    <operation name="SynchronizeFromWeb">
+      <input message="s0:SynchronizeFromWebSoapIn" />
+      <output message="s0:SynchronizeFromWebSoapOut" />
+    </operation>
+    <operation name="SynchronizeFromDeskTop">
+      <input message="s0:SynchronizeFromDeskTopSoapIn" />
+      <output message="s0:SynchronizeFromDeskTopSoapOut" />
+    </operation>
+    <operation name="UpdateSynchronizeFlag">
+      <input message="s0:UpdateSynchronizeFlagSoapIn" />
+      <output message="s0:UpdateSynchronizeFlagSoapOut" />
+    </operation>
+  </portType>
+  <binding name="InfiniServiceSoap" type="s0:InfiniServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="CustomerIdValidation">
+      <soap:operation soapAction="http://www.accountscentre.com/CustomerIdValidation" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="SynchronizeFromWeb">
+      <soap:operation soapAction="http://www.accountscentre.com/SynchronizeFromWeb" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="SynchronizeFromDeskTop">
+      <soap:operation soapAction="http://www.accountscentre.com/SynchronizeFromDeskTop" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="UpdateSynchronizeFlag">
+      <soap:operation soapAction="http://www.accountscentre.com/UpdateSynchronizeFlag" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="InfiniService">
+    <port name="InfiniServiceSoap" binding="s0:InfiniServiceSoap">
+      <soap:address location="http://localhost/InfiniWebService/Default.asmx" />
+    </port>
+  </service>
+</definitions>

@@ -1,0 +1,321 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <BankId>70200</BankId>
+    <BankName>Default Bank</BankName>
+    <Street />
+    <Town />
+    <Country />
+    <PostalCode />
+    <AccountName />
+    <AccountNumber />
+    <SortCode />
+  </Table>
+  <Table>
+    <Street />
+    <Country />
+    <PostalCode />
+    <Id>1</Id>
+    <Name>New Company Name</Name>
+    <City />
+    <Telephone />
+    <Fax />
+    <Email />
+    <VATNo />
+    <LogoName />
+  </Table>
+  <Table>
+    <Street />
+    <Town />
+    <Country />
+    <PostalCode />
+    <Telephone />
+    <Fax />
+    <Email>zahid@infini.com</Email>
+    <UniqueNo>1</UniqueNo>
+    <CustomerId>C153</CustomerId>
+    <CustomerName>New Customer Account</CustomerName>
+    <ContactName />
+    <Vat />
+    <CreditLimit>0</CreditLimit>
+    <TaxId>T1</TaxId>
+    <LedgerId>10000</LedgerId>
+    <DFlag>N</DFlag>
+  </Table>
+  <Table>
+    <MyNo>1</MyNo>
+    <FMonth>January</FMonth>
+    <FYear>2004</FYear>
+  </Table>
+  <Table>
+    <MyNo>2</MyNo>
+    <FMonth>February</FMonth>
+    <FYear>2004</FYear>
+  </Table>
+  <Table>
+    <MyNo>3</MyNo>
+    <FMonth>March</FMonth>
+    <FYear>2004</FYear>
+  </Table>
+  <Table>
+    <MyNo>4</MyNo>
+    <FMonth>April</FMonth>
+    <FYear>2004</FYear>
+  </Table>
+  <Table>
+    <MyNo>5</MyNo>
+    <FMonth>May</FMonth>
+    <FYear>2004</FYear>
+  </Table>
+  <Table>
+    <MyNo>6</MyNo>
+    <FMonth>June</FMonth>
+    <FYear>2004</FYear>
+  </Table>
+  <Table>
+    <MyNo>7</MyNo>
+    <FMonth>July</FMonth>
+    <FYear>2004</FYear>
+  </Table>
+  <Table>
+    <MyNo>8</MyNo>
+    <FMonth>August</FMonth>
+    <FYear>2004</FYear>
+  </Table>
+  <Table>
+    <MyNo>9</MyNo>
+    <FMonth>September</FMonth>
+    <FYear>2004</FYear>
+  </Table>
+  <Table>
+    <MyNo>10</MyNo>
+    <FMonth>October</FMonth>
+    <FYear>2004</FYear>
+  </Table>
+  <Table>
+    <MyNo>11</MyNo>
+    <FMonth>November</FMonth>
+    <FYear>2004</FYear>
+  </Table>
+  <Table>
+    <MyNo>12</MyNo>
+    <FMonth>December</FMonth>
+    <FYear>2004</FYear>
+  </Table>
+  <Table>
+    <ParentId>1</ParentId>
+    <ChildId>1</ChildId>
+    <TransId>10000</TransId>
+    <Debit>0</Debit>
+    <Credit>100.0000</Credit>
+    <TranType>U</TranType>
+    <TranRef>C153</TranRef>
+    <PayStatus />
+    <MyAutoNo>1</MyAutoNo>
+  </Table>
+  <Table>
+    <ParentId>1</ParentId>
+    <ChildId>1</ChildId>
+    <TransId>70100</TransId>
+    <Debit>117.5000</Debit>
+    <Credit>0</Credit>
+    <TranType>T</TranType>
+    <TranRef>10000</TranRef>
+    <PayStatus />
+    <MyAutoNo>2</MyAutoNo>
+  </Table>
+  <Table>
+    <ParentId>1</ParentId>
+    <ChildId>1</ChildId>
+    <TransId>71100</TransId>
+    <Debit>0</Debit>
+    <Credit>17.5000</Credit>
+    <TranType>T</TranType>
+    <TranRef>10000</TranRef>
+    <PayStatus />
+    <MyAutoNo>3</MyAutoNo>
+  </Table>
+  <Table>
+    <ParentId>1</ParentId>
+    <ChildId>1</ChildId>
+    <TransId>C153</TransId>
+    <Debit>117.5000</Debit>
+    <Credit>0</Credit>
+    <TranType>C</TranType>
+    <TranRef>10000</TranRef>
+    <PayStatus>*</PayStatus>
+    <MyAutoNo>4</MyAutoNo>
+  </Table>
+  <Table>
+    <ParentId>2</ParentId>
+    <ChildId>2</ChildId>
+    <TransId>10000</TransId>
+    <Debit>0</Debit>
+    <Credit>200.0000</Credit>
+    <TranType>U</TranType>
+    <TranRef>C153</TranRef>
+    <PayStatus />
+    <MyAutoNo>5</MyAutoNo>
+  </Table>
+  <Table>
+    <ParentId>2</ParentId>
+    <ChildId>2</ChildId>
+    <TransId>70100</TransId>
+    <Debit>235.0000</Debit>
+    <Credit>0</Credit>
+    <TranType>T</TranType>
+    <TranRef>10000</TranRef>
+    <PayStatus />
+    <MyAutoNo>6</MyAutoNo>
+  </Table>
+  <Table>
+    <ParentId>2</ParentId>
+    <ChildId>2</ChildId>
+    <TransId>71100</TransId>
+    <Debit>0</Debit>
+    <Credit>35.0000</Credit>
+    <TranType>T</TranType>
+    <TranRef>10000</TranRef>
+    <PayStatus />
+    <MyAutoNo>7</MyAutoNo>
+  </Table>
+  <Table>
+    <ParentId>2</ParentId>
+    <ChildId>2</ChildId>
+    <TransId>C153</TransId>
+    <Debit>235.0000</Debit>
+    <Credit>0</Credit>
+    <TranType>C</TranType>
+    <TranRef>10000</TranRef>
+    <PayStatus>*</PayStatus>
+    <MyAutoNo>8</MyAutoNo>
+  </Table>
+  <Table>
+    <ParentId>3</ParentId>
+    <ChildId>3</ChildId>
+    <TransId>10000</TransId>
+    <Debit>0</Debit>
+    <Credit>300.0000</Credit>
+    <TranType>U</TranType>
+    <TranRef>C153</TranRef>
+    <PayStatus />
+    <MyAutoNo>9</MyAutoNo>
+  </Table>
+  <Table>
+    <ParentId>3</ParentId>
+    <ChildId>3</ChildId>
+    <TransId>70100</TransId>
+    <Debit>352.5000</Debit>
+    <Credit>0</Credit>
+    <TranType>T</TranType>
+    <TranRef>10000</TranRef>
+    <PayStatus />
+    <MyAutoNo>10</MyAutoNo>
+  </Table>
+  <Table>
+    <ParentId>3</ParentId>
+    <ChildId>3</ChildId>
+    <TransId>71100</TransId>
+    <Debit>0</Debit>
+    <Credit>52.5000</Credit>
+    <TranType>T</TranType>
+    <TranRef>10000</TranRef>
+    <PayStatus />
+    <MyAutoNo>11</MyAutoNo>
+  </Table>
+  <Table>
+    <ParentId>3</ParentId>
+    <ChildId>3</ChildId>
+    <TransId>C153</TransId>
+    <Debit>352.5000</Debit>
+    <Credit>0</Credit>
+    <TranType>C</TranType>
+    <TranRef>10000</TranRef>
+    <PayStatus>*</PayStatus>
+    <MyAutoNo>12</MyAutoNo>
+  </Table>
+  <Table>
+    <TaxId>T0</TaxId>
+    <CountId>0</CountId>
+    <TaxRate>0</TaxRate>
+  </Table>
+  <Table>
+    <TaxId>T1</TaxId>
+    <CountId>1</CountId>
+    <TaxRate>17.5000</TaxRate>
+  </Table>
+  <Table>
+    <TaxId>T2</TaxId>
+    <CountId>2</CountId>
+    <TaxRate>0</TaxRate>
+  </Table>
+  <Table>
+    <TaxId>T3</TaxId>
+    <CountId>3</CountId>
+    <TaxRate>0</TaxRate>
+  </Table>
+  <Table>
+    <TaxId>T4</TaxId>
+    <CountId>4</CountId>
+    <TaxRate>0</TaxRate>
+  </Table>
+  <Table>
+    <TaxId>T5</TaxId>
+    <CountId>5</CountId>
+    <TaxRate>0</TaxRate>
+  </Table>
+  <Table>
+    <TaxId>T6</TaxId>
+    <CountId>6</CountId>
+    <TaxRate>0</TaxRate>
+  </Table>
+  <Table>
+    <TaxId>T7</TaxId>
+    <CountId>7</CountId>
+    <TaxRate>0</TaxRate>
+  </Table>
+  <Table>
+    <TaxId>T8</TaxId>
+    <CountId>8</CountId>
+    <TaxRate>0</TaxRate>
+  </Table>
+  <Table>
+    <TaxId>T1</TaxId>
+    <ParentId>1</ParentId>
+    <InvTP>SI</InvTP>
+    <InvDate>28/07/2004</InvDate>
+    <InvDetails>D DSFSDFD S</InvDetails>
+    <InvNet>100.0000</InvNet>
+    <InvVAT>17.5000</InvVAT>
+    <Refund>N</Refund>
+    <Mark>N</Mark>
+    <V>N</V>
+    <TranDate>2004-07-28T00:00:00.0000000+05:00</TranDate>
+  </Table>
+  <Table>
+    <TaxId>T1</TaxId>
+    <ParentId>2</ParentId>
+    <InvTP>SI</InvTP>
+    <InvDate>28/07/2004</InvDate>
+    <InvDetails>SDF DSF DSF SD FD</InvDetails>
+    <InvNet>200.0000</InvNet>
+    <InvVAT>35.0000</InvVAT>
+    <Refund>N</Refund>
+    <Mark>N</Mark>
+    <V>N</V>
+    <TranDate>2004-07-28T00:00:00.0000000+05:00</TranDate>
+  </Table>
+  <Table>
+    <TaxId>T1</TaxId>
+    <ParentId>3</ParentId>
+    <InvTP>SI</InvTP>
+    <InvDate>28/07/2004</InvDate>
+    <InvDetails>DSF SD FSDF SD</InvDetails>
+    <InvNet>300.0000</InvNet>
+    <InvVAT>52.5000</InvVAT>
+    <Refund>N</Refund>
+    <Mark>N</Mark>
+    <V>N</V>
+    <TranDate>2004-07-28T00:00:00.0000000+05:00</TranDate>
+  </Table>
+</NewDataSet>

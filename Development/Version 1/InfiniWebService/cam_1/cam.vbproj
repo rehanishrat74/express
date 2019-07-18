@@ -1,0 +1,406 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{71DCB573-AE84-46ED-826C-0BD9AAD2E9BD}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "InfiniLogic.AccountsCentre.CAM.Web"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "InfiniLogic.AccountsCentre.CAM.Web"
+                StartupObject = "InfiniLogic.AccountsCentre.CAM.Web.(None)"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "CAM.BLL"
+                    Project = "{DE22B56C-EBFC-473B-8BA7-6598DB1106CB}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "InfiniLogic.Text"
+                    AssemblyName = "InfiniLogic.Text"
+                    HintPath = "\\netserver\Projects\AccountsCentre\Production\Version 1\UIProjects\www.accountscentre.com\Library\components\InfiniLogic.Text.dll"
+                />
+                <Reference
+                    Name = "InfiniLogic.AccountsCentre.BLL"
+                    AssemblyName = "InfiniLogic.AccountsCentre.BLL"
+                    HintPath = "\\netserver\Projects\AccountsCentre\Production\Version 1\UIProjects\www.accountscentre.com\Library\components\InfiniLogic.AccountsCentre.BLL.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Configuration" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.UI" />
+                <Import Namespace = "System.Web.UI.HtmlControls" />
+                <Import Namespace = "System.Web.UI.WebControls" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "cam.vsdisco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "NewTemplate.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "NewTemplate.aspx.vb"
+                    DependentUpon = "NewTemplate.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewTemplate.aspx.resx"
+                    DependentUpon = "NewTemplate.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "bin\InfiniLogic.AccountsCentre.CAM.Web.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "bin\InfiniLogic.AccountsCentre.CAM.Web.pdb"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "bin\Interop.RSADLL.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\bird.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\blank.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\fade.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\index_06.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\links_bg.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\logo.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\top_bg.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\top_img_1.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "include\BottomBar.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "include\BottomBar.ascx.vb"
+                    DependentUpon = "BottomBar.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "include\BottomBar.ascx.resx"
+                    DependentUpon = "BottomBar.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "include\LeftBar.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "include\LeftBar.ascx.vb"
+                    DependentUpon = "LeftBar.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "include\LeftBar.ascx.resx"
+                    DependentUpon = "LeftBar.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "include\TopBar.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "include\TopBar.ascx.vb"
+                    DependentUpon = "TopBar.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "include\TopBar.ascx.resx"
+                    DependentUpon = "TopBar.ascx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Library\css\main.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Library\css\Styles.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Library\Javascript\overlib_mini.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Library\Javascript\stm31.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Library\Javascript\Validator.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Service\AddInvoice.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Service\AddInvoice.aspx.vb"
+                    DependentUpon = "AddInvoice.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Service\AddInvoice.aspx.resx"
+                    DependentUpon = "AddInvoice.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Service\BalanceSheet.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Service\BalanceSheet.aspx.vb"
+                    DependentUpon = "BalanceSheet.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Service\BalanceSheet.aspx.resx"
+                    DependentUpon = "BalanceSheet.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Service\customerdata.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Service\customerdata.aspx.vb"
+                    DependentUpon = "customerdata.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Service\customerdata.aspx.resx"
+                    DependentUpon = "customerdata.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Service\CustomerInvoice.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Service\CustomerInvoice.aspx.vb"
+                    DependentUpon = "CustomerInvoice.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Service\CustomerInvoice.aspx.resx"
+                    DependentUpon = "CustomerInvoice.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Service\default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Service\default.aspx.vb"
+                    DependentUpon = "default.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Service\default.aspx.resx"
+                    DependentUpon = "default.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Service\EditDetails.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Service\EditDetails.aspx.vb"
+                    DependentUpon = "EditDetails.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Service\EditDetails.aspx.resx"
+                    DependentUpon = "EditDetails.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Service\NewBankAccount.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Service\NewBankAccount.aspx.vb"
+                    DependentUpon = "NewBankAccount.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Service\NewBankAccount.aspx.resx"
+                    DependentUpon = "NewBankAccount.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Service\TransferFund.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Service\TransferFund.aspx.vb"
+                    DependentUpon = "TransferFund.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Service\TransferFund.aspx.resx"
+                    DependentUpon = "TransferFund.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Service\TransformFundDetails.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Service\TransformFundDetails.aspx.vb"
+                    DependentUpon = "TransformFundDetails.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Service\TransformFundDetails.aspx.resx"
+                    DependentUpon = "TransformFundDetails.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Service\TransformFundResponse.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Service\TransformFundResponse.aspx.vb"
+                    DependentUpon = "TransformFundResponse.aspx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Service\TransformFundResponse.aspx.resx"
+                    DependentUpon = "TransformFundResponse.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

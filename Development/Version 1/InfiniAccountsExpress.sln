@@ -1,0 +1,59 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "InfiniExpress", "InfiniExpress\InfiniExpress.vbproj", "{8A034DBB-D545-4695-8740-6C60015C3BE2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{488FC42F-5D88-433B-8B84-D41DF7722023} = {488FC42F-5D88-433B-8B84-D41DF7722023}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "InfiniExpress.BLL", "InfiniExpress.BLL\InfiniExpress.BLL.vbproj", "{488FC42F-5D88-433B-8B84-D41DF7722023}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8D49C9F8-96AB-44BD-97E4-50C66ACF6AA2} = {8D49C9F8-96AB-44BD-97E4-50C66ACF6AA2}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "InfiniExpress.DAL", "InfiniExpress.DAL\InfiniExpress.DAL.vbproj", "{8D49C9F8-96AB-44BD-97E4-50C66ACF6AA2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccProjectName0 = \u0022$/InfiniExpress\u0022,\u0020BAAAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SolutionUniqueID = {F97E4E44-3324-46E5-A2AD-708FAAFA8ABC}
+		SccProjectUniqueName1 = InfiniExpress.BLL\\InfiniExpress.BLL.vbproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = InfiniExpress.BLL\\
+		SccProjectUniqueName2 = InfiniExpress.DAL\\InfiniExpress.DAL.vbproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = InfiniExpress.DAL\\
+		SccProjectUniqueName3 = InfiniExpress\\InfiniExpress.vbproj
+		SccLocalPath3 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection3 = InfiniExpress\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8A034DBB-D545-4695-8740-6C60015C3BE2}.Debug.ActiveCfg = Debug|.NET
+		{8A034DBB-D545-4695-8740-6C60015C3BE2}.Debug.Build.0 = Debug|.NET
+		{8A034DBB-D545-4695-8740-6C60015C3BE2}.Release.ActiveCfg = Release|.NET
+		{8A034DBB-D545-4695-8740-6C60015C3BE2}.Release.Build.0 = Release|.NET
+		{488FC42F-5D88-433B-8B84-D41DF7722023}.Debug.ActiveCfg = Debug|.NET
+		{488FC42F-5D88-433B-8B84-D41DF7722023}.Debug.Build.0 = Debug|.NET
+		{488FC42F-5D88-433B-8B84-D41DF7722023}.Release.ActiveCfg = Release|.NET
+		{488FC42F-5D88-433B-8B84-D41DF7722023}.Release.Build.0 = Release|.NET
+		{8D49C9F8-96AB-44BD-97E4-50C66ACF6AA2}.Debug.ActiveCfg = Debug|.NET
+		{8D49C9F8-96AB-44BD-97E4-50C66ACF6AA2}.Debug.Build.0 = Debug|.NET
+		{8D49C9F8-96AB-44BD-97E4-50C66ACF6AA2}.Release.ActiveCfg = Release|.NET
+		{8D49C9F8-96AB-44BD-97E4-50C66ACF6AA2}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
